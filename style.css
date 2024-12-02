@@ -1,33 +1,42 @@
 /* --Header Page-- */
-
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body {
+ body {
     font-family: "Poppins", serif;
-    font-weight: 200;
-}
+    font-weight: normal;
+} */
 
-header{
+/* header{
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid black;
-  background-color: rgb(67, 238, 141);
-}
-.header-p {
-margin-left: 40px;
-font-size: 30px;
-}
+} */
+/* .my-name{
+  margin-left: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}  */
 
- li  {
+ /* li  {
   display: inline-block;
   margin: 1rem;
   margin-right: 50px;
   font-size: 20px ;
   font-weight: bold;
- }
+ } */
+/* .nav-container {
+    max-width: 100%;
+    background-color:deepskyblue;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: 0.3s ease;
+  } */
 
  /*--Main Page-- */
-  main {
+ 
+  /* .hero {
     display: flex;
     justify-content: space-between;
     background-color:rgb(86, 184, 184);
@@ -88,7 +97,7 @@ font-size: 30px;
 .whatsapp-icon {
   padding-top: 20px;
 }
-.github-btn {
+.reachout {
   width: 200px;
   height: 50px;
   font-size: 20px;
@@ -99,3 +108,94 @@ font-size: 30px;
   border: 2px groove black;
   border-radius: 10px 5px;
 }
+
+.sec-2-header {
+  text-align: center;
+  font-size: 2.6rem;
+}
+.the-big-three,
+.libraries,
+.git {
+  display: flex;
+  justify-content: center;
+}
+.tech-stack{
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 2px groove black;
+}
+
+.sec-3-header {
+  text-align: center;
+  font-size: 2.6rem;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+}
+.feather-flow {
+  justify-self: center;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.feather-flow-img,
+.uni-img,
+.amazon-img,
+.marketing-img {
+  width:500px;
+  height: 300px;
+  box-shadow: -5px 5px 5px #000;
+  border-top-right-radius: 10px;
+}
+.uni {
+  justify-self: center;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.amazon {
+  justify-self: center;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.trading {
+  justify-self: center;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.project-name {
+ font-size: 1.2rem;
+ font-weight: bold;
+ text-align: center;
+}
+.sec-3-btn-container {
+  display: flex;
+  justify-content: center;
+}
+.web-btn,
+.github-btn {
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  border: 2px groove black;
+  border-radius: 10px 5px;
+}
+
+.sec-4-header {
+  text-align: center;
+  font-size: 2.5rem;
+
+}
+ */

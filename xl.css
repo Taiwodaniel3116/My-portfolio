@@ -1,0 +1,93 @@
+/* body {
+  background-color: deeppink;
+} */
+body {
+  margin-inline-start: 10rem;
+  margin-inline-end: 10rem;
+ }
+ header .my-name{
+  font-size: 3rem;
+} 
+ul li a {
+  padding-right: 3rem;
+  font-size: 1.7rem;
+}
+/* main */
+.hero {
+  /* justify-content: space-around; */
+  margin-inline-start: 10rem;
+ }
+.intro{
+  font-size: 6rem;
+  margin-right: 5rem;
+ }
+ .my-goal {
+  font-size: 2.3rem;
+  width: 47ch;
+ }
+ .github-icon,
+ .linkedin-icon,
+ .whatsapp-icon,
+ .facebook-icon {
+  width: 65px;
+  height: 65px;
+ }
+ .linkedin-icon,
+ .whatsapp-icon,
+ .facebook-icon  {
+  margin-left: 25px;
+ }
+ .reachout-btn {
+  width: 275px;
+  height: 65px;
+  font-size: 30px;
+  border-radius: 25px 10px;
+  margin-top: 30px;
+ }
+.my-image {
+ width: 700px;
+ height: 700px;
+ margin-top: 30px;
+}
+.sec-2-header,
+.sec-3-header,
+.sec-4-header {
+  font-size: 4.8rem;
+}
+.tech-stack{
+  width: 600px;
+  height: 100px;
+  font-size: 2rem;
+  border: 3px groove black;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4rem;
+}
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4rem;
+}
+.project-name {
+  font-size: 2rem;
+}
+.feather-flow-img,
+.uni-img,
+.amazon-img,
+.marketing-img {
+  width: 800px;
+  height: 500px;
+  box-shadow: -10px 10px 10px #000;
+}
+.web-btn,
+.github-btn {
+  width: 250px;
+  height: 60px;
+  font-size: 30px;
+  border: 2px groove black;
+  border-radius: 25px 10px;
+}

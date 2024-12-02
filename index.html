@@ -4,42 +4,143 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio Website</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/tyle.css">
+
+    <!-- BREAKPOINTS -->
+    <link rel="stylesheet" href="mobile-small.css" media="(min-width: 320px)">
+    <link rel="stylesheet" href="mobile-medium.css" media="(min-width: 375px)">
+    <link rel="stylesheet" href="mobile-large.css" media="(min-width: 425px)">
+    <link rel="stylesheet" href="tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="laptop.css" media="(min-width: 1024px)">
+    <link rel="stylesheet" href="laptop-large.css" media="(min-width: 90rem)">
+    <link rel="stylesheet" href="xl.css" media="(width: 2560px)">
+
 </head>
 <body>
   
-  <header>
-    <h3 class="header-p" >Taiwo Daniel</h3>
+  <header class="header">
+     <p class="my-name" >Taiwo . O</p>
 
     <nav>
+      <div class="ham-menu js-ham-menu">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="nav-container js-nav-container">
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li><a href="" id="home-link">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">projects</a></li>
+        <li><a href="">Contact</a></li>
       </ul>
     </nav>
+  </div> 
   </header>
 
   <main>
+    <div class="hero">
   <div>
-    <p class="intro">
-      <span class="name"> Hello, I'm Taiwo Daniel</span><br> Your <span class="skill">Frontend Web Developer</span>
+    <h1 class="intro">
+      Hello<span>😃</span><br>
+      I'm Taiwo Odusanya <br>
+      A Frontend Web Dev. 
+    </h1>
+    <p class="my-goal">A Passionate web developer 
+      ready to make great changes in the world of tech👨‍💻.
     </p>
-    <p  class="intro goal">A Passionate web developer 
-      ready to make great changes in the <br> world of tech.
-    </p>
+    <div class="icons">
     <img class="github-icon" src="/images/logo-github.svg">
-    <img class="linkedin-icon" src="/images/logo-linkedin.svg">
-    <img class="whatsapp-icon" src="/images/logo-whatsapp.svg">
-    <img class="facebook-icon" src="/images/logo-facebook.svg">
-     <br>
-    <button class="github-btn">ReachOut</button>
+    <img class="linkedin-icon" src="/images/linkedin (3).png">
+    <img class="whatsapp-icon" src="/images/instagram (4).png">
+    <img class="facebook-icon" src="/images/facebook (3).png">
+  </div>
+  <div class="reachout-btn-container">
+    <button class="reachout-btn">ReachOut</button>
+  </div>
   </div>
   <figure>
-      <img class="my-image" src="">
+      <img class="my-image" src="images/IMG_5957.JPG">
   </figure>
-     
+</div>
+<!--  -->
+<section class="section-2">
+  <h2 class="sec-2-header">My Tech Stack</h2>
+  <div class="the-big-three">
+  <button class="tech-stack">HTML</button><button class="tech-stack">CSS</button><button class="tech-stack">JAVASCRIPT</button>
+  </div>
+  <div class="libraries">
+    <button  class="tech-stack">REACT</button><button class="tech-stack">BOOTSTRAP</button>
+  </div>
+  <div class="git">
+  <button class="tech-stack">GIT & GITHUB</button>
+</div>
+</section>
+  
+<!--  -->
+<section class="section-3">
+  <h3 class="sec-3-header">
+    My Projects
+  </h3>
+  <div class="projects-container">
+  <div class="feather-flow">
+    <p class="project-name">Feather-flow Landing Page</p>
+    <img class="feather-flow-img" src="images/IMG_4788.JPG" alt="feather-flow website">
+    <div class="sec-3-btn-container">
+      <button class="web-btn">
+        Website
+      </button>
+      <button class="github-btn">
+        Github
+      </button>
+    </div>
+  </div>
+  <div class="uni">
+    <p class="project-name">University Landing Page</p>
+    <img class="uni-img" src="images/IMG_4398.JPG" alt="university website">
+    <div class="sec-3-btn-container">
+      <button class="web-btn">
+        Website
+      </button>
+      <button class="github-btn">
+        Github
+      </button>
+    </div>
+    </button>
+  </div>
+  <div class="amazon">
+    <p class="project-name">Amazon E-Commerce Website</p>
+    <img class="amazon-img" src="images/IMG_4792.JPG" alt="Amazon e-commerce website">
+    <div class="sec-3-btn-container">
+      <button class="web-btn">
+        Website
+      </button>
+      <button class="github-btn">
+        Github
+      </button>
+    </div>
+  </div>
+  <div class="trading">
+    <p class="project-name">Marketing App Landing Page</p>
+    <img class="marketing-img" src="images/IMG_E7549.JPG" alt="markleting app landing page">
+    <div class="sec-3-btn-container">
+      <button class="web-btn">
+        Website
+      </button>
+      <button class="github-btn">
+        Github
+      </button>
+    </div>
+  </div>
+</div> <!-- project div -->
+</section>
+<!--  -->
+<section class="section-4">
+  <h4 class="sec-4-header">Contact Me</h4>
+  <form>
+    
+  </form>
+</section>
   </main>
+
+  <script src="index.js"></script>
 </body>
 </html>

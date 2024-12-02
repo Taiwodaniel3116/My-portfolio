@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  /* background-color:rgb(86, 184, 184); */
+  background:radial-gradient(rgb(18, 182, 247), rgb(58, 56, 56));
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-weight: 100;
+  margin-inline-start: 1rem;
+  margin-inline-end: 1rem;
+}
+header {
+  margin-top: 10px;
+  border-bottom: 1px groove black;
+}
+header .my-name{
+  font-size: 1rem;
+  font-weight: bold;
+} 
+.nav-container {
+  width: 100%;
+  height: 200px;
+  max-width: 100%;
+  background-color:deepskyblue;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transition: 0.3s ease;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  line-height: 2.6rem;
+  font-weight: bold;
+}
+li {
+  list-style: none;
+}
+#home-link {
+  margin-top: 2.2rem;
+}
+.ham-menu span {
+  width: 25px;
+  height: 3px;
+  background-color:black;
+  position: absolute;
+  top: 3%;
+  right: 0;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  z-index: 1;
+  transition: 0.2s ease;
+}
+.ham-menu span:nth-child(1) {
+  top: 2%;
+} 
+
+.ham-menu span:nth-child(3) {
+  top: 4%;
+} 
+
+/* Toggled */
+.nav-container.active {
+  left: 0;
+} 
+.ham-menu.active span:nth-child(1) {
+  top: 3%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  margin-right: 1rem;
+} 
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+} 
+.ham-menu.active span:nth-child(3) {
+  top: 3%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  margin-right: 1rem;
+} 
+
+ /*--Main section-- */
+ .hero {
+  margin-bottom: 4rem;
+ }
+.intro {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.my-goal {
+  font-size:0.9rem;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 0;
+  font-weight: 400;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.github-icon {
+  width:30px;
+  height:30px;
+}
+.linkedin-icon {
+  width:30px;
+  height:30px;
+  margin-left: 10px;
+}
+.whatsapp-icon {
+  width:30px;
+  height:30px;
+  margin-left: 10px;
+}
+.facebook-icon {
+  width:30px;
+  height:30px;
+  margin-left: 10px;
+}
+.reachout-btn-container {
+  display: flex;
+  justify-content: center;
+}
+.reachout-btn {
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  background-color:deepskyblue;
+  border: 1px groove black;
+  border-radius: 10px 5px;
+  margin-top: 10px;
+}
+figure {
+  display: grid;
+  place-content: center;
+}
+.my-image {
+  width: 250px;
+  height: 250px;
+  background-color:deepskyblue;
+  border-radius: 50%;
+  box-shadow: 0px 3px 3px 3px black;
+}
+/* Section 2 */
+.sec-2-header {
+  text-align: center;
+}
+.the-big-three,
+.libraries,
+.git {
+  display: flex;
+  justify-content: center;
+}
+.tech-stack{
+  width: 200px;
+  height: 40px;
+  font-size: 1rem;
+  border: 2px groove black;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/* section 3 */
+.sec-2-header,
+.sec-3-header,
+.sec-4-header {
+  margin-top: 4rem;
+}
+.sec-3-header {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.projects-container {
+  display: grid;
+  place-content: center;
+}
+.project-name {
+  text-align: center;
+  font-weight: 400;
+}
+.feather-flow-img,
+.uni-img,
+.amazon-img,
+.marketing-img {
+  width:300px;
+  height: 200px;
+  box-shadow: -5px 5px 5px #000;
+  border-top-right-radius: 10px;
+}
+.sec-3-btn-container {
+  display: flex;
+  justify-content: center;
+}
+.web-btn,
+.github-btn {
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  border: 1px groove black;
+  border-radius: 10px 5px;
+  background-color:deepskyblue;
+}
+.web-btn {
+  margin-right: 5px;
+}
+/* section 4 */
+.sec-4-header {
+  text-align: center;
+  font-size: 1.5rem;
+}

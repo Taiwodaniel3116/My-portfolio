@@ -1,0 +1,63 @@
+/* body {
+  background-color: purple;
+} */
+ header {
+  display: flex;
+  justify-content: space-between;
+ }
+ header .my-name{
+  font-size: 1.5rem;
+  margin-top: 18px;
+} 
+.nav-container {
+  display: contents;
+}
+li {
+  display: inline-block;
+}
+ul li a {
+  margin-right: 1rem;
+  font-size: 0.9rem;
+}
+.ham-menu span {
+  display: none;
+}
+
+/* Main */
+.hero {
+  display: flex;
+  margin-top: 2rem;
+  margin-inline-start: 3rem;
+  margin-inline-end: 0.6rem;
+ }
+ .intro,
+ .my-goal {
+  text-align: initial;
+ }
+ .intro {
+  font-size: 2rem;
+ }
+ .icons,
+ .reachout-btn-container {
+  justify-content: initial;
+}
+figure {
+  display: block;
+}
+.sec-2-header,
+.sec-3-header,
+.sec-4-header {
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+/* section 3 */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.feather-flow,
+.uni,
+.amazon,
+.trading{
+  justify-self: center;
+}
