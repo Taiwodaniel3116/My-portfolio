@@ -10,6 +10,10 @@ body {
   margin-inline-start: 1rem;
   margin-inline-end: 1rem;
 }
+button {
+  cursor: pointer;
+  font-family: "Poppins";
+}
 header {
   margin-top: 10px;
   border-bottom: 1px groove black;
@@ -33,6 +37,29 @@ ul li a {
   color: black;
   line-height: 2.6rem;
   font-weight: bold;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li a:hover {
+  color: #76dad5;
+}
+ul li a:hover::before {
+  content: '';
+  width: 50%;
+  height: 2px;
+  background: transparent;
+  position: absolute;
+  bottom: 0;
+}
+ul li a:hover::after{
+  content: '';
+  width: 50%;
+  height: 2px;
+  background: linear-gradient(to right, #fff, #1cbbb4);
+  position: absolute;
+  bottom: 0;
 }
 li {
   list-style: none;
@@ -106,16 +133,19 @@ li {
   width:30px;
   height:30px;
   margin-left: 10px;
+  border-radius: 50%;
 }
-.whatsapp-icon {
+.instagram-icon {
   width:30px;
   height:30px;
   margin-left: 10px;
+  border-radius: 50%;
 }
 .facebook-icon {
   width:30px;
   height:30px;
   margin-left: 10px;
+  border-radius: 50%;
 }
 .reachout-btn-container {
   display: flex;
@@ -125,8 +155,8 @@ li {
   width: 100px;
   height: 30px;
   font-size: 15px;
-  background-color:deepskyblue;
-  border: 1px groove black;
+  background-color:rgb(19, 127, 163);
+  color: black;
   border-radius: 10px 5px;
   margin-top: 10px;
 }
@@ -139,7 +169,7 @@ figure {
   height: 250px;
   background-color:deepskyblue;
   border-radius: 50%;
-  box-shadow: 0px 3px 3px 3px black;
+  box-shadow: 0px 3px 3px 1px black;
 }
 /* Section 2 */
 .sec-2-header {
@@ -158,6 +188,7 @@ figure {
   border: 2px groove black;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  color: black;
 }
 /* section 3 */
 .sec-2-header,
@@ -178,7 +209,7 @@ figure {
   font-weight: 400;
 }
 .feather-flow-img,
-.uni-img,
+.spering-img,
 .amazon-img,
 .marketing-img {
   width:300px;
@@ -199,6 +230,7 @@ figure {
   border: 1px groove black;
   border-radius: 10px 5px;
   background-color:deepskyblue;
+  color: black;
 }
 .web-btn {
   margin-right: 5px;

@@ -56,7 +56,7 @@ figure {
   grid-template-columns: repeat(2, 1fr);
 }
 .feather-flow,
-.uni,
+.spering,
 .amazon,
 .trading{
   justify-self: center;
