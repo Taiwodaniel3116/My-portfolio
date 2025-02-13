@@ -1,13 +1,18 @@
 /* body {
   background-color: aqua;
 } */
+:root {
+  /* FONT-SIZES */
+  --H2-FONT-SIZE:3rem;
+  --P-FONT-SIZE: 1.7rem;
+ }
  body {
   margin-inline-start: 5rem;
   margin-inline-end: 5rem;
  }
 header {
-  margin-inline-start: 3rem;
-  margin-inline-end: 3rem;
+  padding-inline-start: 3rem;
+  padding-inline-end: 3rem;
  }
  header .my-name{
   font-size: 2rem;
@@ -18,12 +23,14 @@ ul li a {
 }
 /* main */
 .hero {
-  /* justify-content: space-around; */
-  margin-inline-start: 7.6rem;
+  padding-inline-start: 4rem; /* changed this from 7.6rem */
   margin-top: 4rem;
+  border-radius: 20px;
+  /* column-gap: 7rem; */
  }
  .intro{
   font-size: 4rem;
+  margin-top: 6rem;
  }
  .my-goal {
   font-size: 1.8rem;
@@ -46,12 +53,30 @@ ul li a {
  .my-image {
   width: 450px;
   height: 450px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
+ /* About */
+ .about h2 {
+  font-size: var(--H2-FONT-SIZE);
+ }
+ .about p {
+  font-size: var(--P-FONT-SIZE);
+ }
+ .about div {
+  grid-template-columns: 350px 1fr;
+   padding-inline-start: 8rem;
+  padding-inline-end: 3rem;
+}
+ .about img {
+  width: 350px;
+  height: 500px;
+  margin-right: 2rem;
+}
+
 .sec-2-header,
 .sec-3-header,
 .sec-4-header {
-  font-size: 3rem;
+  font-size: var(--H2-FONT-SIZE);
   margin-top: 8.5rem;
 }
 .tech-stack{
@@ -61,29 +86,93 @@ ul li a {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
 /* section 3 */
 .sec-3-header {
   border-bottom: none;
 }
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 4rem;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(4, 1fr);
+  /* row-gap: 4rem; */
+  row-gap: 1rem;
 }
 .project-name {
   font-size: 1.4rem;
 }
+.feather-flow,
+.spering,
+.trading,
+.amazon,
+.weather-app,
+.rps-game,
+.calculator,
+.todo-app {
+  width: 370px;
+  height: max-content;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, .1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .feather-flow-img,
 .spering-img,
 .amazon-img,
-.marketing-img {
-  width: 500px;
-  height: 300px;
+.quiz-app-img,
+.weather-app-img,
+.rps-img,
+.calculator-img,
+.todo-app-img {
+  /* width: 500px; */
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  /* height: 300px; */
 }
+
 .web-btn,
 .github-btn {
   width: 150px;
   height: 40px;
   font-size: 20px;
   font-weight: normal;
+}
+
+.section-4-content {
+  border-radius: 20px;
+}
+.form-container form{
+  width: 900px;
+  padding-top: 6rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+form input {
+  height: 60px;
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+form textarea {
+  height: 250px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+form button {
+  width: 150px;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.call-img {
+  width: 300px;
+  height: 300px;
+  margin-top: 8rem;
+  padding-right: 10rem;
 }

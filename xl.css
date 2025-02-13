@@ -1,9 +1,14 @@
 /* body {
   background-color: deeppink;
 } */
+:root {
+  /* FONT-SIZES */
+  --H2-FONT-SIZE: 4.8rem;
+  --P-FONT-SIZE:  2.4rem;
+ }
 body {
-  margin-inline-start: 10rem;
-  margin-inline-end: 10rem;
+  margin-inline-start: 5rem;
+  margin-inline-end: 5rem;
  }
  header .my-name{
   font-size: 3rem;
@@ -15,11 +20,11 @@ ul li a {
 /* main */
 .hero {
   /* justify-content: space-around; */
-  margin-inline-start: 10rem;
+  padding-inline-start: 5rem;
  }
 .intro{
   font-size: 6rem;
-  margin-right: 5rem;
+  /* margin-right: 5rem; */
  }
  .my-goal {
   font-size: 2.3rem;
@@ -27,13 +32,13 @@ ul li a {
  }
  .github-icon,
  .linkedin-icon,
- .whatsapp-icon,
+ .instagram-icon,
  .facebook-icon {
   width: 65px;
   height: 65px;
  }
  .linkedin-icon,
- .whatsapp-icon,
+ .instagram-icon,
  .facebook-icon  {
   margin-left: 25px;
  }
@@ -49,10 +54,27 @@ ul li a {
  height: 700px;
  margin-top: 30px;
 }
+ /* About */
+ .about h2 {
+  font-size: var(--H2-FONT-SIZE);
+ }
+ .about p {
+  font-size: var(--P-FONT-SIZE);
+ }
+ .about div {
+  grid-template-columns: 600px 1fr;
+   padding-inline-start: 10rem;
+  padding-inline-end: 5rem;
+}
+ .about img {
+  width: 600px;
+  height: 800px;
+}
+
 .sec-2-header,
 .sec-3-header,
 .sec-4-header {
-  font-size: 4.8rem;
+  font-size: var(--H2-FONT-SIZE);
 }
 .tech-stack{
   width: 600px;
@@ -62,25 +84,37 @@ ul li a {
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
-.projects-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 4rem;
-}
-.projects-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 4rem;
-}
 .project-name {
   font-size: 2rem;
+}
+.feather-flow,
+.spering,
+.trading,
+.amazon,
+.weather-app,
+.rps-game,
+.calculator,
+.todo-app {
+  width: max-content;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: max-content;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, .1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .feather-flow-img,
 .spering-img,
 .amazon-img,
-.marketing-img {
-  width: 800px;
-  height: 500px;
+.quiz-app-img,
+.weather-app-img,
+.rps-img,
+.calculator-img,
+.todo-app-img {
+  width: 500px;
+  height: 600px;
   box-shadow: -10px 10px 10px #000;
 }
 .web-btn,
@@ -90,4 +124,30 @@ ul li a {
   font-size: 30px;
   border: 2px groove black;
   border-radius: 25px 10px;
+}
+
+.form-container form{
+  width: 1300px;
+  padding-top: 8rem;
+}
+form input {
+  height: 80px;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+form textarea {
+  font-size: 1.5rem;
+  height: 350px;
+}
+form button {
+  width: 250px;
+  height: 70px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.call-img {
+  width: 450px;
+  height: 450px;
+  margin-top: 12rem;
+  padding-right: 16rem;
 }

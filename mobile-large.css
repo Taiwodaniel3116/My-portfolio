@@ -1,4 +1,29 @@
 /* body {
   background-color: yellow;
 } */
-
+:root {
+  /* FONT-SIZES */
+  --P-FONT-SIZE: 1.1rem;
+ }
+header .my-name{
+  font-size: 1.5rem;
+} 
+.ham-menu span {
+  margin-top: 24px;
+}
+.intro {
+  padding-inline-start: 0.7rem;
+  padding-inline-start: 0.7rem;
+  font-size: 2.2rem;
+}
+.my-image {
+  width: 100px;
+  height: 100px;
+}
+ /* About */
+ .about h2{
+  font-size: var(--H2-FONT-SIZE);
+ }
+ .about p{
+  font-size: var(--P-FONT-SIZE);
+ }

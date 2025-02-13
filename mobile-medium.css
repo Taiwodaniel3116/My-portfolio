@@ -1,3 +1,31 @@
 /* body {
   background-color: blue;
 } */
+:root {
+  /* FONT-SIZES */
+  --H2-FONT-SIZE:1.5rem;
+  --P-FONT-SIZE: 1rem;
+ }
+header .my-name{
+  font-size: 1.3rem;
+} 
+.ham-menu span {
+  margin-top: 17px;
+}
+.intro {
+  padding-inline-start: 0.5rem;
+  padding-inline-start: 0.5rem;
+  font-size: 2rem;
+}
+.my-image {
+  width: 90px;
+  height: 90px;
+}
+/* About */
+   .about h2{
+    font-size: var(--H2-FONT-SIZE);
+   }
+   .about p,
+   .techstack p {
+    font-size: var(--P-FONT-SIZE);
+   }

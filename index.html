@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio Website</title>
-  <link rel="stylesheet" href="/tyle.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+  <link rel="stylesheet" href="/style.css">
 
     <!-- BREAKPOINTS -->
     <link rel="stylesheet" href="mobile-small.css" media="(min-width: 320px)">
@@ -19,7 +22,7 @@
 <body>
   
   <header class="header">
-     <p class="my-name" >Taiwo . O</p>
+     <p class="my-name">Taiwo . O</p>
     <nav>
       <div class="ham-menu js-ham-menu">
         <span></span><span></span><span></span>
@@ -34,40 +37,74 @@
     </div> 
     </nav>
   </header>
-
   <main>
-    <div class="hero">
-  <div>
-    <h1 class="intro">
-      Hello<span>😃</span><br>
-      I'm Taiwo Odusanya <br>
-      A Frontend Web Dev. 
+    <div class="hero zoom-in-1s">
+  <div class="intro-container">
+    <h1 class="intro zoom-in-2s">
+      Hello World!<br>
+       Taiwo Odusanya <br>
+      A Frontend Web Developer. 
     </h1>
-    <p class="my-goal">A Passionate web developer 
+    <!-- <p class="my-goal zoom-in-2s">A Passionate web developer 
       ready to make great changes in the world of tech👨‍💻.
-    </p>
-    <div class="icons">
-    <img class="github-icon" src="images/logo-github.svg">
-    <img class="linkedin-icon" src="images/linkedin.JPG">
-    <img class="instagram-icon" src="images/instagram.JPG">
-    <img class="facebook-icon" src="images/facebook.JPG">
+    </p> -->
+    <div class="icons zoom-in-2s">
+    <a href=""><img class="linkedin-icon" src="images/linkedin.JPG"></a>
+    <a href=""><img class="github-icon" src="images/logo-github.svg"></a>
+    <a href=""><img class="instagram-icon" src="images/instagram.JPG"></a>
+    <a href=""><img class="facebook-icon" src="images/facebook.JPG"></a>
+    <!-- <a href="#"></i><i class="ri-github-fill"></i></a>
+    <a href="#"><i class="ri-linkedin-fill"></i></a>
+    <a href="#"><i class="ri-twitter-x-fill"></i></a>
+    <a href="#"><i class="ri-youtube-fill"></i></a> -->
   </div>
-  <div class="reachout-btn-container">
+  <div class="reachout-btn-container zoom-in-2s">
     <button class="reachout-btn">ReachOut</button>
   </div>
   </div>
-  <figure>
+  <figure class="zoom-in-2s my-img-container">
       <img class="my-image" src="images/IMG_5957.JPG">
   </figure>
+  <!-- <div class="full-wrapper">
+  <div class="scene">
+    <div class="wrapper">
+      <div id="sphere" class="sphere">
+      </div>
+    </div>
+  </div>
+</div> -->
 </div>
+<!--  -->
+<!-- <section class="about-me-section">
+  
+  <div class="about-img-wrapper">
+  <img class="about-me-img" src="images/IMG_4788.JPG">
+  <div>
+  <h2 class="about-me">About Me</h2>
+  <p class="details-about-me">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et fuga laudantium repellendus eum nisi itaque cum praesentium necessitatibus quia vel modi, animi eos, optio saepe quis vitae! Tenetur, dicta magni.</p>
+  <button class="about-me-btn">Read More</button>
+</div>
+  </div>
+</section> -->
+ <section class="about-section">
+<div class="about">
+  <h2>About Me</h2>
+  <div>
+  <img src="images/pexels-enginakyurt-1435752.jpg" alt="" />
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis corporis sed sunt mollitia officia quas voluptatem quod delectus fugit pariatur harum saepe dicta quo ex, quos tempore impedit. Sed, architecto. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore magni quam consequatur ullam amet quaerat, magnam libero, porro, assumenda sequi ut voluptatum explicabo delectus nobis cumque itaque deleniti nostrum.</p>
+  </div>
+  </div>
+</section>
 <!--  -->
 <section class="section-2">
   <h2 class="sec-2-header">My Tech Stack</h2>
   <div class="the-big-three">
-  <button class="tech-stack">HTML</button><button class="tech-stack">CSS</button><button class="tech-stack">JAVASCRIPT</button>
+  <button class="tech-stack">HTML</button>
+  <button class="tech-stack">CSS</button>
+  <button class="tech-stack">JAVASCRIPT</button>
   </div>
   <div class="libraries">
-    <button  class="tech-stack">REACT</button><button class="tech-stack">BOOTSTRAP</button>
+    <button  class="tech-stack">REACT</button><button class="tech-stack">NEXTJS</button>
   </div>
   <div class="git">
   <button class="tech-stack">GIT & GITHUB</button>
@@ -107,7 +144,7 @@
   </div>
   <div class="amazon">
     <p class="project-name">Amazon E-Commerce Website</p>
-    <img class="amazon-img" src="images/amazon.png" alt="Amazon e-commerce website">
+    <img class="amazon-img" src="images/amazon-building.jpeg" alt="Amazon e-commerce website">
     <div class="sec-3-btn-container">
       <button class="web-btn">
         Website
@@ -117,26 +154,89 @@
       </button>
     </div>
   </div>
+
   <div class="trading">
-    <p class="project-name">Marketing App Landing Page</p>
-    <img class="marketing-img" src="images/IMG_E7549.JPG" alt="markleting app landing page">
+    <p class="project-name">Quiz App</p>
+    <img class="quiz-app-img" src="images/quiz-image.jpeg" alt="quiz image">
     <div class="sec-3-btn-container">
-      <button class="web-btn">
+      <a href="https://taiwodaniel3116.github.io/Quiz-app/"><button class="web-btn">
         Website
-      </button>
-      <button class="github-btn">
+      </button></a>
+      <a href="https://github.com/Taiwodaniel3116/Quiz-app">
+        <button class="github-btn">
         Github
-      </button>
+      </button></a>
     </div>
   </div>
+
+  <div class="weather-app">
+    <p class="project-name">Weather App</p>
+    <img class="weather-app-img" src="images/weather-img.jpg" alt="weather app image">
+    <div class="sec-3-btn-container">
+      <a href="https://taiwodaniel3116.github.io/Weather-app/"><button class="web-btn">
+        Website
+      </button></a>
+      <a href="https://github.com/Taiwodaniel3116/Weather-app"><button class="github-btn">
+        Github
+      </button></a>
+    </div>
+  </div>
+  <div class="rps-game">
+    <p class="project-name">RPS Game</p>
+    <img class="rps-img" src="images/rps-img.png" alt="rps image">
+    <div class="sec-3-btn-container">
+      <a href="https://taiwodaniel3116.github.io/Quiz-app/"><button class="web-btn">
+        Website
+      </button></a>
+      <a href="https://github.com/Taiwodaniel3116/Quiz-app"><button class="github-btn">
+        Github
+      </button></a>
+    </div>
+    </div> <!--  -->
+  <div class="calculator">
+    <p class="project-name">Calculator</p>
+    <img class="calculator-img" src="images/calculator-img.jpeg" alt="calculator image">
+    <div class="sec-3-btn-container">
+      <a href="https://taiwodaniel3116.github.io/Quiz-app/"><button class="web-btn">
+        Website
+      </button></a>
+      <a href="https://github.com/Taiwodaniel3116/Quiz-app"><button class="github-btn">
+        Github
+      </button></a>
+    </div>
+    </div> <!--  -->
+  <div class="todo-app">
+    <p class="project-name">Todo App</p>
+    <img class="todo-app-img" src="images/todo-img.jpg" alt="todo app image">
+    <div class="sec-3-btn-container">
+      <a href="https://taiwodaniel3116.github.io/Quiz-app/"><button class="web-btn">
+        Website
+      </button></a>
+      <a href="https://github.com/Taiwodaniel3116/Quiz-app"><button class="github-btn">
+        Github
+      </button></a>
+    </div>
+    </div> <!--  -->
 </div> <!-- project div -->
 </section>
 <!--  -->
 <section class="section-4">
+ 
   <h4 class="sec-4-header">Contact Me</h4>
-  <form>
-    
-  </form>
+  <div class="section-4-content">
+  <div class="form-container">
+    <form action="">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+  
+      <textarea name="message" placeholder="Your Message" required></textarea>
+  
+    <button type="submit" class="submit-btn">Submit⇛</button>
+    </form>
+  </div>
+  <img class="call-img bounce" src="images/call.webp" alt="call image">
+   <!-- <img class="call-img" src="images/mail.png" alt=""> -->
+</div>
 </section>
   </main>
 

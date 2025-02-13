@@ -1,20 +1,95 @@
 /* body {
   background-color: pink;
 } */
-
+:root {
+  /* FONT-SIZES */
+  --P-FONT-SIZE: 1.2rem;
+ }
 /* main */
+ .hero {
+  display: flex;
+  margin-top: 2rem;
+  padding-inline-start: 3rem;
+  padding-inline-end: 0.6rem;
+  padding-top: 2rem;
+ } 
 .intro{
   font-size: 2.5rem;
+  margin-top: 3rem;
+  text-align: initial;
+  white-space: nowrap;
  }
+ .icons,
+ .reachout-btn-container {
+  justify-content: initial;
+}
  .my-goal {
   font-size: 1rem;
   width: 48ch;
  }
+ .linkedin-icon {
+  width:30px;
+  height:30px;
+  margin-left: 12px;
+}
+.reachout-btn-container {
+  display: flex;
+  margin-left: 10px;
+}
  .reachout-btn {
   width: 120px;
   margin-top: 15px;
 }
  .my-image {
-  width: 280px;
-  height: 280px;
+  width: 270px;
+  height: 270px;
+}
+ /* About */
+ .about h2 {
+  font-size: var(--H2-FONT-SIZE);
+ }
+ .about div {
+  grid-template-columns: 250px 1fr;
+   padding-inline-start: 3rem;
+  padding-inline-end: 1rem;
+}
+ .about img {
+  width: 250px;
+  height: 350px;
+  margin-right: 2rem;
+}
+
+/* projects */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  row-gap: 1rem;
+}
+
+.section-4-content {
+  display: flex;
+  justify-content: space-between;
+  margin-inline-start: 3.5rem;
+  margin-inline-end: 3.5rem;
+}
+.form-container form{
+  width: 600px;
+}
+form input {
+  height: 40px;
+}
+form textarea {
+  height: 150px;
+}
+form button {
+  width: 90px;
+}
+.call-img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  animation: bounce 2s ease-in infinite;
+  margin-top: 4rem;
+  padding-right: 2.5rem;
 }
